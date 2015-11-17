@@ -25,7 +25,6 @@ net.core.wmem_max = 1048576
 # Stop: Weblogic Tuning : `date`
 EOF
 sysctl -p
-sysctl -p
 
 # LIMIT
 cat >> /etc/security/limits.conf <<EOF
